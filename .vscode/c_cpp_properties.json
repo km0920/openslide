@@ -1,0 +1,34 @@
+{
+    "configurations": [
+        {
+            "name": "windows-cygwin-gcc-x64",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "C:/cygwin64/usr/include",
+                "C:/cygwin64/usr/include/glib-2.0"
+            ],
+            "compilerPath": "C:/cygwin64/bin/gcc.exe",
+            "cStandard": "${default}",
+            "cppStandard": "${default}",
+            "intelliSenseMode": "linux-gcc-x64",
+            "compilerArgs": []
+        },
+        {
+            "name": "windows-cygwin-glib2",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "windowsSdkVersion": "10.0.19041.0",
+            "compilerPath": "C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/cl.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-msvc-x64"
+        }
+    ],
+    "version": 4
+}
